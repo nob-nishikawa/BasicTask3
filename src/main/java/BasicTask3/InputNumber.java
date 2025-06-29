@@ -8,6 +8,7 @@ public class InputNumber {
   public String ScanningConsole(Scanner scanner) {
 
     String inputNumber;
+//    正しい形式の番号が入力されるまで繰り返す
     while (true) {
       try {
         System.out.println("携帯の電話番号を入力してください。ハイフン（-）はつけてください");
